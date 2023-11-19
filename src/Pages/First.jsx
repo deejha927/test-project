@@ -14,6 +14,7 @@ function First() {
       for (let key in data?.bpi) {
         result.push(data.bpi[key]);
         console.log("hello");
+        console.log("newline");
       }
       setData(result);
     } catch (err) {
