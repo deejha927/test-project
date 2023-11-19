@@ -12,7 +12,6 @@ import Third from "./Pages/Third";
 import FourthPage from "./Pages/FourthPage";
 
 function App() {
-  const test = "this is testing";
   return (
     <BrowserRouter>
       <Routes>
