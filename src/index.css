@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.form-div {
+  background-color: rgb(105, 97, 253);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+.form-div form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-div .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content label {
+  color: white;
+  text-transform: capitalize;
+}
+.content input {
+  height: 30px;
+}
+button[type="submit"] {
+  background-color: rgb(3, 8, 40);
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.radio-button-div {
+  display: flex;
+  flex-direction: column;
+}
+.content select {
+  height: 35px;
+}
+.error-msg {
+  color: rgb(182, 6, 6);
+}
