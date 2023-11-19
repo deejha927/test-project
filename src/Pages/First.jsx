@@ -13,7 +13,6 @@ function First() {
       const result = [];
       for (let key in data?.bpi) {
         result.push(data.bpi[key]);
-        console.log("hello");
       }
       setData(result);
     } catch (err) {
